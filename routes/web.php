@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'TrainsController@index')->name('trains.index');
 Route::get('/train/{id}', 'TrainsController@show')->name('trains.show');
+Route::get('/users-tinder', 'UserController@index')->name('users-tinder.index');
