@@ -23,7 +23,6 @@ class CreateUsersTable extends Migration
             $table->string('bio');
             $table->string('location');
             $table->boolean('is_single');
-
         });
     }
 

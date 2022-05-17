@@ -15,8 +15,8 @@ class UserController extends Controller
     public function index()
     {
         //
-        $user = User::all();
-        $data = ['user' => $user];
+        $users = User::all();
+        $data = ['users' => $users];
         return view('users-tinder.index', $data);
     }
 
